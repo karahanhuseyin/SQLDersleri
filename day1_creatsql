@@ -1,0 +1,84 @@
+
+
+--========================1.GUN SQL GIRIS=======================================
+
+-------------------------1)TABLO OLUSTURMA)------------------------------------
+
+CREATE TABLE student1(
+
+id     CHAR(4),
+name   VARCHAR(20),
+age    NUMBER
+
+);
+
+--------------------------2) VERI GIRISI----------------------------------------
+
+
+INSERT INTO student1 VALUES ('1001','Karahan',46);
+INSERT INTO student1 VALUES ('1002','Tayfur',23);
+
+
+-------------------------3) TABLODAN VERI SORGULAMA-----------------------------
+
+SELECT * FROM student1;
+
+
+
+--------------------------4) TABLO SILME----------------------------------------
+
+DROP TABLE student1;  -- Drop olusturdugum tabloyu tamemen sil komutu--
+
+DROP TABLE student;
+
+ 
+DROP TABLE DERS_1;
+CALI VERI GIRISI-----------------------------------
+
+INSERT INTO student1(id,name) VALUES ('1234','Tayfur');
+
+-- SORU1
+--VERI TABANINIZDA URUNLER ADINDA TABLO OLUSTURUN
+--urun_id =>number
+--urun_adi=
+
+
+------------------------5) PAR>varchar(50)
+-- fiyat=>number
+--(100,cips,5)
+--(200,kola,6)
+
+
+
+CREATE TABLE urunler(
+urun_id  NUMBER,
+urun_adi VARCHAR(50),
+Fiyat NUMBER
+
+);
+
+INSERT INTO urunler VALUES (100,'cips',5);
+INSERT INTO urunler VALUES (200,'kola',6);
+
+SELECT * FROM urunler;
+
+----------------------------1.GUN SON-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
