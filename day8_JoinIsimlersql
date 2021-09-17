@@ -84,7 +84,7 @@
     ON tablo1.sutun = tablo2.sutun;
 ?
 ================================================================================*/  
-    
+    drop table urunler;
   
 /* -----------------------------------------------------------------------------
   ORNEK2: Iki Tabloda sirket_id’si ayni olanlarin (ortak) sirket_ismi, siparis_id ve 
