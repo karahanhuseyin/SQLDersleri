@@ -23,6 +23,8 @@ INSERT INTO student1 VALUES ('1002','Tayfur',23);
 
 SELECT * FROM student1;
 
+DENEME DENEME DENEME!!!!
+
 
 
 --------------------------4) TABLO SILME----------------------------------------
